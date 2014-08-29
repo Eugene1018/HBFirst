@@ -1,0 +1,11 @@
+D:\工作\WorkFlowSolution\FlowSQLServerDAL\bin\Debug\FlowSQLServerDAL.dll
+D:\工作\WorkFlowSolution\FlowSQLServerDAL\bin\Debug\FlowSQLServerDAL.pdb
+D:\工作\WorkFlowSolution\FlowSQLServerDAL\bin\Debug\FlowCommon.dll
+D:\工作\WorkFlowSolution\FlowSQLServerDAL\bin\Debug\FlowIDAL.dll
+D:\工作\WorkFlowSolution\FlowSQLServerDAL\bin\Debug\FlowModels.dll
+D:\工作\WorkFlowSolution\FlowSQLServerDAL\bin\Debug\FlowCommon.pdb
+D:\工作\WorkFlowSolution\FlowSQLServerDAL\bin\Debug\FlowIDAL.pdb
+D:\工作\WorkFlowSolution\FlowSQLServerDAL\bin\Debug\FlowModels.pdb
+D:\工作\WorkFlowSolution\FlowSQLServerDAL\obj\Debug\FlowSQLServerDAL.dll
+D:\工作\WorkFlowSolution\FlowSQLServerDAL\obj\Debug\FlowSQLServerDAL.pdb
+D:\工作\WorkFlowSolution\FlowSQLServerDAL\obj\Debug\FlowSQLServerDAL.csprojResolveAssemblyReference.cache

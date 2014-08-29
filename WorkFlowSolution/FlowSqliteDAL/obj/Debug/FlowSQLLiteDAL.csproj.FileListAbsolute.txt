@@ -1,0 +1,10 @@
+D:\工作\WorkFlowSolution\FlowSqliteDAL\bin\Debug\FlowSqliteDAL.dll
+D:\工作\WorkFlowSolution\FlowSqliteDAL\bin\Debug\FlowSqliteDAL.pdb
+D:\工作\WorkFlowSolution\FlowSqliteDAL\bin\Debug\FlowIDAL.dll
+D:\工作\WorkFlowSolution\FlowSqliteDAL\bin\Debug\System.Data.SQLite.dll
+D:\工作\WorkFlowSolution\FlowSqliteDAL\bin\Debug\FlowModels.dll
+D:\工作\WorkFlowSolution\FlowSqliteDAL\bin\Debug\FlowIDAL.pdb
+D:\工作\WorkFlowSolution\FlowSqliteDAL\bin\Debug\FlowModels.pdb
+D:\工作\WorkFlowSolution\FlowSqliteDAL\obj\Debug\FlowSqliteDAL.dll
+D:\工作\WorkFlowSolution\FlowSqliteDAL\obj\Debug\FlowSqliteDAL.pdb
+D:\工作\WorkFlowSolution\FlowSqliteDAL\obj\Debug\FlowSQLLiteDAL.csprojResolveAssemblyReference.cache

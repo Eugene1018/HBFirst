@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC63D597-835C-4085-B8B8-CAE476FB49F5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FlowWeb</RootNamespace>
+    <AssemblyName>FlowWeb</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Flow\ActionDialog.aspx" />
+    <Content Include="Flow\FormAudit.aspx" />
+    <Content Include="Flow\images\again.png" />
+    <Content Include="Flow\images\audit.png" />
+    <Content Include="Flow\images\back-2.png" />
+    <Content Include="Flow\images\back.png" />
+    <Content Include="Flow\images\refuse.png" />
+    <Content Include="Flow\images\filter.png" />
+    <Content Include="Flow\images\left.png" />
+    <Content Include="Flow\images\right.png" />
+    <Content Include="Flow\images\select.png" />
+    <Content Include="Flow\images\select.gif" />
+    <Content Include="Flow\images\user.gif" />
+    <Content Include="Flow\Test.aspx" />
+    <Content Include="Flow\Windows_BatchFlow.aspx" />
+    <Content Include="Flow\FlowStart.aspx" />
+    <Content Include="Flow\FlowDialog.aspx" />
+    <Content Include="Flow\FlowTest.aspx" />
+    <Content Include="Flow\FlowPreview.aspx" />
+    <Content Include="Flow\images\11.gif" />
+    <Content Include="Flow\images\22.gif" />
+    <Content Include="Flow\images\33.gif" />
+    <Content Include="Flow\images\bg.gif" />
+    <Content Include="Flow\images\del.gif" />
+    <Content Include="Flow\images\edt.gif" />
+    <Content Include="Flow\images\save.gif" />
+    <Content Include="Flow\images\tab_03.gif" />
+    <Content Include="Flow\images\tab_05.gif" />
+    <Content Include="Flow\images\tab_07.gif" />
+    <Content Include="Flow\images\tab_12.gif" />
+    <Content Include="Flow\images\tab_15.gif" />
+    <Content Include="Flow\images\tab_17.gif" />
+    <Content Include="Flow\images\tab_18.gif" />
+    <Content Include="Flow\images\tab_19.gif" />
+    <Content Include="Flow\images\tab_20.gif" />
+    <Content Include="Flow\images\tb.gif" />
+    <Content Include="Flow\images\tick.png" />
+    <Content Include="Flow\images\zoom.png" />
+    <Content Include="Flow\inc\webflowbyred.js" />
+    <Content Include="Flow\Window_Revision.aspx" />
+    <Content Include="Flow\Window_Users.aspx" />
+    <Content Include="Flow\Window_BackStep.aspx" />
+    <Content Include="Main\Error.aspx" />
+    <Content Include="Main\images\404.png" />
+    <Content Include="Main\images\bg.gif" />
+    <Content Include="Main\images\dl.gif" />
+    <Content Include="Main\images\left.gif" />
+    <Content Include="Main\images\login_03.gif" />
+    <Content Include="Main\images\login_03.jpg" />
+    <Content Include="Main\images\login_05.gif" />
+    <Content Include="Main\images\login_06.gif" />
+    <Content Include="Main\images\login_07.gif" />
+    <Content Include="Main\images\login_08.gif" />
+    <Content Include="Main\images\main_03.gif" />
+    <Content Include="Main\images\main_04.gif" />
+    <Content Include="Main\images\main_05.gif" />
+    <Content Include="Main\images\main_07.gif" />
+    <Content Include="Main\images\main_09.gif" />
+    <Content Include="Main\images\main_11.gif" />
+    <Content Include="Main\images\main_12.gif" />
+    <Content Include="Main\images\main_14.gif" />
+    <Content Include="Main\images\main_16.gif" />
+    <Content Include="Main\images\main_18.gif" />
+    <Content Include="Main\images\main_20.gif" />
+    <Content Include="Main\images\main_21.gif" />
+    <Content Include="Main\images\main_22.gif" />
+    <Content Include="Main\images\main_29.gif" />
+    <Content Include="Main\images\main_30.gif" />
+    <Content Include="Main\images\main_31.gif" />
+    <Content Include="Main\images\main_32.gif" />
+    <Content Include="Main\images\main_34.gif" />
+    <Content Include="Main\images\main_36.gif" />
+    <Content Include="Main\images\main_37.gif" />
+    <Content Include="Main\images\main_39.gif" />
+    <Content Include="Main\images\main_40.gif" />
+    <Content Include="Main\images\main_41.gif" />
+    <Content Include="Main\images\main_45.gif" />
+    <Content Include="Main\images\main_47.gif" />
+    <Content Include="Main\images\main_48.gif" />
+    <Content Include="Main\images\main_51.gif" />
+    <Content Include="Main\images\main_52.gif" />
+    <Content Include="Main\images\main_55.gif" />
+    <Content Include="Main\images\main_55_1.gif" />
+    <Content Include="Main\images\main_58.gif" />
+    <Content Include="Main\images\main_59.gif" />
+    <Content Include="Main\images\main_61.gif" />
+    <Content Include="Main\images\main_62.gif" />
+    <Content Include="Flow\inc\contextMenu\context.js" />
+    <Content Include="Flow\inc\contextMenu\contextmenu.xsl" />
+    <Content Include="Flow\inc\contextMenu\images\add_action.gif" />
+    <Content Include="Flow\inc\contextMenu\images\add_obj.gif" />
+    <Content Include="Flow\inc\contextMenu\images\add_step.gif" />
+    <Content Include="Flow\inc\contextMenu\images\del_obj.gif" />
+    <Content Include="Flow\inc\contextMenu\images\edit_obj.gif" />
+    <Content Include="Flow\inc\contextMenu\images\opensub.gif" />
+    <Content Include="Flow\inc\contextMenu\images\refresh_vml.gif" />
+    <Content Include="Flow\inc\contextMenu\images\save.gif" />
+    <Content Include="Flow\inc\contextMenu\images\sendmsg.gif" />
+    <Content Include="Flow\inc\dtree\dtree.css" />
+    <Content Include="Flow\inc\dtree\dtree.js" />
+    <Content Include="Flow\inc\dtree\img\empty.gif" />
+    <Content Include="Flow\inc\dtree\img\flow.gif" />
+    <Content Include="Flow\inc\dtree\img\join.gif" />
+    <Content Include="Flow\inc\dtree\img\joinbottom.gif" />
+    <Content Include="Flow\inc\dtree\img\line.gif" />
+    <Content Include="Flow\inc\dtree\img\minus.gif" />
+    <Content Include="Flow\inc\dtree\img\minusbottom.gif" />
+    <Content Include="Flow\inc\dtree\img\nolines_minus.gif" />
+    <Content Include="Flow\inc\dtree\img\nolines_plus.gif" />
+    <Content Include="Flow\inc\dtree\img\obj1.gif" />
+    <Content Include="Flow\inc\dtree\img\obj2.gif" />
+    <Content Include="Flow\inc\dtree\img\obj3.gif" />
+    <Content Include="Flow\inc\dtree\img\obj4.gif" />
+    <Content Include="Flow\inc\dtree\img\plus.gif" />
+    <Content Include="Flow\inc\dtree\img\plusbottom.gif" />
+    <Content Include="Flow\inc\function.js" />
+    <Content Include="Flow\inc\images\editflow.gif" />
+    <Content Include="Flow\inc\images\loadflow.gif" />
+    <Content Include="Flow\inc\images\newflow.gif" />
+    <Content Include="Flow\inc\images\Q&amp;A.gif" />
+    <Content Include="Flow\inc\images\saveflow.gif" />
+    <Content Include="Flow\inc\movestep.js" />
+    <Content Include="Flow\inc\shiftlang.js" />
+    <Content Include="Flow\inc\style.css" />
+    <Content Include="Flow\inc\webflow.js" />
+    <Content Include="Flow\inc\webTab\tab.active.png" />
+    <Content Include="Flow\inc\webTab\tab.hover.png" />
+    <Content Include="Flow\inc\webTab\tab.png" />
+    <Content Include="Flow\inc\webTab\webtab.css" />
+    <Content Include="Flow\inc\webTab\webTab.js" />
+    <Content Include="Flow\langs\actiondialog_zh.xml" />
+    <Content Include="Flow\langs\flowdialog_zh.xml" />
+    <Content Include="Flow\langs\main_zh.xml" />
+    <Content Include="Flow\langs\stepdialog_zh.xml" />
+    <Content Include="Login.aspx" />
+    <Content Include="Main\Center.aspx" />
+    <Content Include="Main\Down.aspx" />
+    <Content Include="Main\Left.aspx" />
+    <Content Include="Main\Main.aspx" />
+    <Content Include="Main\Middel.aspx" />
+    <Content Include="Main\Top.aspx" />
+    <Content Include="Flow\StepDialog.aspx" />
+    <Content Include="SysManage\ModuleList.aspx" />
+    <Content Include="SysManage\RoleList.aspx" />
+    <Content Include="SysManage\UserList.aspx" />
+    <Content Include="SysManage\Window_Module.aspx" />
+    <Content Include="SysManage\Window_Role.aspx" />
+    <Content Include="SysManage\Window_User.aspx" />
+    <Content Include="SysManage\Window_RoleList.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Flow\ActionDialog.aspx.cs">
+      <DependentUpon>ActionDialog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\ActionDialog.aspx.designer.cs">
+      <DependentUpon>ActionDialog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flow\FormAudit.aspx.cs">
+      <DependentUpon>FormAudit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\FormAudit.aspx.designer.cs">
+      <DependentUpon>FormAudit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flow\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flow\Windows_BatchFlow.aspx.cs">
+      <DependentUpon>Windows_BatchFlow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\Windows_BatchFlow.aspx.designer.cs">
+      <DependentUpon>Windows_BatchFlow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flow\FlowStart.aspx.cs">
+      <DependentUpon>FlowStart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\FlowStart.aspx.designer.cs">
+      <DependentUpon>FlowStart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flow\FlowDialog.aspx.cs">
+      <DependentUpon>FlowDialog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\FlowDialog.aspx.designer.cs">
+      <DependentUpon>FlowDialog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flow\FlowTest.aspx.cs">
+      <DependentUpon>FlowTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\FlowTest.aspx.designer.cs">
+      <DependentUpon>FlowTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flow\FlowPreview.aspx.cs">
+      <DependentUpon>FlowPreview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\FlowPreview.aspx.designer.cs">
+      <DependentUpon>FlowPreview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flow\Window_Revision.aspx.cs">
+      <DependentUpon>Window_Revision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\Window_Revision.aspx.designer.cs">
+      <DependentUpon>Window_Revision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flow\Window_Users.aspx.cs">
+      <DependentUpon>Window_Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\Window_Users.aspx.designer.cs">
+      <DependentUpon>Window_Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flow\Window_BackStep.aspx.cs">
+      <DependentUpon>Window_BackStep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\Window_BackStep.aspx.designer.cs">
+      <DependentUpon>Window_BackStep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Center.aspx.cs">
+      <DependentUpon>Center.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main\Center.aspx.designer.cs">
+      <DependentUpon>Center.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Down.aspx.cs">
+      <DependentUpon>Down.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main\Down.aspx.designer.cs">
+      <DependentUpon>Down.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Left.aspx.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main\Left.aspx.designer.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Middel.aspx.cs">
+      <DependentUpon>Middel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main\Middel.aspx.designer.cs">
+      <DependentUpon>Middel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Top.aspx.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main\Top.aspx.designer.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Flow\StepDialog.aspx.cs">
+      <DependentUpon>StepDialog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flow\StepDialog.aspx.designer.cs">
+      <DependentUpon>StepDialog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SysManage\ModuleList.aspx.cs">
+      <DependentUpon>ModuleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SysManage\ModuleList.aspx.designer.cs">
+      <DependentUpon>ModuleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SysManage\RoleList.aspx.cs">
+      <DependentUpon>RoleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SysManage\RoleList.aspx.designer.cs">
+      <DependentUpon>RoleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SysManage\UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SysManage\UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SysManage\Window_Module.aspx.cs">
+      <DependentUpon>Window_Module.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SysManage\Window_Module.aspx.designer.cs">
+      <DependentUpon>Window_Module.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SysManage\Window_Role.aspx.cs">
+      <DependentUpon>Window_Role.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SysManage\Window_Role.aspx.designer.cs">
+      <DependentUpon>Window_Role.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SysManage\Window_User.aspx.cs">
+      <DependentUpon>Window_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SysManage\Window_User.aspx.designer.cs">
+      <DependentUpon>Window_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SysManage\Window_RoleList.aspx.cs">
+      <DependentUpon>Window_RoleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SysManage\Window_RoleList.aspx.designer.cs">
+      <DependentUpon>Window_RoleList.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FlowBLL\FlowBLL.csproj">
+      <Project>{2EF441DC-CC01-4658-B91D-0526DAFC1FF0}</Project>
+      <Name>FlowBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlowCommon\FlowCommon.csproj">
+      <Project>{64D7AEDC-AE88-4681-BD98-E92C76D53F89}</Project>
+      <Name>FlowCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlowModels\FlowModels.csproj">
+      <Project>{EDD8D297-8F8C-4310-831E-DAD9F249C1C0}</Project>
+      <Name>FlowModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Flow\flows\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Data\FlowDB.bak" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5965</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/FlowWeb</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

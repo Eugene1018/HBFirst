@@ -1,0 +1,5 @@
+D:\工作\WorkFlowSolution\FlowCommon\bin\Debug\FlowCommon.dll
+D:\工作\WorkFlowSolution\FlowCommon\bin\Debug\FlowCommon.pdb
+D:\工作\WorkFlowSolution\FlowCommon\obj\Debug\FlowCommon.dll
+D:\工作\WorkFlowSolution\FlowCommon\obj\Debug\FlowCommon.pdb
+D:\工作\WorkFlowSolution\FlowCommon\obj\Debug\FlowCommon.csprojResolveAssemblyReference.cache

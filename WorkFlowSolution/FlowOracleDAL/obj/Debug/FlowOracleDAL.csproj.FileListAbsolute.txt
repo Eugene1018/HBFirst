@@ -1,0 +1,9 @@
+D:\工作\WorkFlowSolution\FlowOracleDAL\bin\Debug\FlowOracleDAL.dll
+D:\工作\WorkFlowSolution\FlowOracleDAL\bin\Debug\FlowOracleDAL.pdb
+D:\工作\WorkFlowSolution\FlowOracleDAL\bin\Debug\FlowIDAL.dll
+D:\工作\WorkFlowSolution\FlowOracleDAL\bin\Debug\FlowModels.dll
+D:\工作\WorkFlowSolution\FlowOracleDAL\bin\Debug\FlowIDAL.pdb
+D:\工作\WorkFlowSolution\FlowOracleDAL\bin\Debug\FlowModels.pdb
+D:\工作\WorkFlowSolution\FlowOracleDAL\obj\Debug\FlowOracleDAL.dll
+D:\工作\WorkFlowSolution\FlowOracleDAL\obj\Debug\FlowOracleDAL.pdb
+D:\工作\WorkFlowSolution\FlowOracleDAL\obj\Debug\FlowOracleDAL.csprojResolveAssemblyReference.cache

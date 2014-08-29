@@ -1,0 +1,9 @@
+D:\工作\WorkFlowSolution\FlowDALFactory\bin\Debug\FlowDALFactory.dll
+D:\工作\WorkFlowSolution\FlowDALFactory\bin\Debug\FlowDALFactory.pdb
+D:\工作\WorkFlowSolution\FlowDALFactory\bin\Debug\FlowIDAL.dll
+D:\工作\WorkFlowSolution\FlowDALFactory\bin\Debug\FlowModels.dll
+D:\工作\WorkFlowSolution\FlowDALFactory\bin\Debug\FlowIDAL.pdb
+D:\工作\WorkFlowSolution\FlowDALFactory\bin\Debug\FlowModels.pdb
+D:\工作\WorkFlowSolution\FlowDALFactory\obj\Debug\FlowDALFactory.dll
+D:\工作\WorkFlowSolution\FlowDALFactory\obj\Debug\FlowDALFactory.pdb
+D:\工作\WorkFlowSolution\FlowDALFactory\obj\Debug\FlowDALFactory.csprojResolveAssemblyReference.cache

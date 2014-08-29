@@ -1,0 +1,15 @@
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowWeb.dll
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowWeb.pdb
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowBLL.dll
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowCommon.dll
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowModels.dll
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowIDAL.dll
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowDALFactory.dll
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowBLL.pdb
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowCommon.pdb
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowModels.pdb
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowIDAL.pdb
+D:\工作\WorkFlowSolution\FlowWeb\bin\FlowDALFactory.pdb
+D:\工作\WorkFlowSolution\FlowWeb\obj\Debug\FlowWeb.dll
+D:\工作\WorkFlowSolution\FlowWeb\obj\Debug\FlowWeb.pdb
+D:\工作\WorkFlowSolution\FlowWeb\obj\Debug\FlowWeb.csprojResolveAssemblyReference.cache
